@@ -1,0 +1,25 @@
+#container{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  border: 1px solid purple;
+  width:800px;
+  grid-gap: 1px;
+  margin:20px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+}
+#link{
+  display: grid;
+  grid-template-columns: repeat(2,40px)
+}
+h2{
+  color:rgb(27, 27, 143)
+}
+img{
+  width:130px;
+}
+p,h2{
+  font-weight:400;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
