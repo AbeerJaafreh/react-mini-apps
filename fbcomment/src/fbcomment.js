@@ -1,10 +1,7 @@
 import React from 'react';
 import './App.css'
-function prop()
-{
-    
-}
-function fbcomments(prop)
+
+function Fbcomments(prop)
 {
     return (
         <div id="container">
@@ -21,4 +18,4 @@ function fbcomments(prop)
         
     );
 }
-export default fbcomments;
+export default Fbcomments;
